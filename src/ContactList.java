@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Scanner;
+
 public class ContactList {
     private ArrayList<Person> contacts;
 
@@ -84,5 +86,12 @@ public class ContactList {
         }
     }
 
+    public void run() {
+        System.out.println("Menu: \n1. Add Contact \n2. List All Contacts By First Name\n" +
+                "3. List All Contacts By Last Name\n4. List All Contacts by Phone Number\n" +
+                "6. Search By First Name\n7. Search By Last Name\n8. Search By Phone Number\n0. Exit");
+        Scanner scan = new Scanner(System.in);
+        String input = new
+    }
 
 }
