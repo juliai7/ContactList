@@ -1,6 +1,6 @@
 public class Parent extends Person{
     private String childName;
-    public Birthday(String firstName, String lastName, String phoneNumber, String childName) {
+    public Parent(String firstName, String lastName, String phoneNumber, String childName) {
         super(firstName, lastName, phoneNumber);
         this.childName =  childName;
     }
