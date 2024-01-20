@@ -111,7 +111,7 @@ public class ContactList {
                 String lastName = scan.nextLine();
                 System.out.println("Phone Number:");
                 String phoneNumber = scan.nextLine();
-                // If it's a student
+                // If it's a student then use their input and create a student to add to contact list
                 if (type == 1) {
                     System.out.println("Grade:");
                     int grade = scan.nextInt();
@@ -119,7 +119,7 @@ public class ContactList {
                     Student s = new Student(firstName, lastName, phoneNumber, grade);
                     addContact(s);
                 }
-                // If it's a parent
+                // If it's a parent then create a parent to add to contact list
                 else {
                     System.out.println("Child Name: ");
                     String childName = scan.nextLine();
